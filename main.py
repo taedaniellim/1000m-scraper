@@ -3,10 +3,8 @@ import re
 import json
 import os
 from datetime import datetime
-from dotenv import load_dotenv
 
-# Load environment variables from .env file
-load_dotenv()
+# Note: dotenv not needed for GitHub Actions - environment variables are loaded automatically
 
 # -------------------------
 # CONFIGURATION
